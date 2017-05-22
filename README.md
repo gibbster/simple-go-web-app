@@ -18,11 +18,4 @@ Or to set the message:
 MESSAGE="this is the message to display" go run main.go
 ```
 
-Cloud Foundry
--------------
-
-```
-cf push myapp --no-start
-cf set-env myapp MESSAGE "this is myapp"
-cf start myapp
-```
+TDB: describe the CI flow`
